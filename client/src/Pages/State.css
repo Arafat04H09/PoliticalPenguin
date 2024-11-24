@@ -1,0 +1,129 @@
+.state-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.map-section {
+    margin-top: -3.5rem;
+    width: 35%;
+}
+
+.data-section {
+    overflow-y: auto; 
+    border-radius: 2rem;
+    background-color: #eee;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.state-button-container {
+    border-radius: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #eee;
+    gap: 5rem;
+}
+
+.all-data {
+    margin-left: 35%;
+    width: 65%;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+}
+
+.init-data {
+    justify-content: center;
+    display: flex;
+}
+
+.state-button {
+    gap: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.state-button:hover {
+    background-color: #555;
+}
+
+.nobullets {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sticky-map {
+    position: fixed;
+    z-index: 10;
+}
+
+.map-and-ensemble-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.map-container, .selectEnsemble {
+    width: 48%; 
+    justify-content: center;
+}
+
+.ensemble-display ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ensemble-display li {
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.map-cluster-scatter-container {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    height: 50%; 
+    border: solid;
+}
+
+.map-container-ensemble-selected,
+.cluster-container {
+    width: 50%; 
+    height: 50%; 
+   
+}
+
+.buttom-container {
+    height: 30%;
+    border: solid;
+}
+
+.scatter-container {
+    width: 50%;
+}
+
+.button {
+    width: 100%;
+}
+.back-button-container {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}

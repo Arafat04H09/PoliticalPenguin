@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #eee;
+    gap: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 2.5rem;
+}
+
+.controls-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 3rem;
+}
+
+.button:hover, .button:active {
+    background-color: #555;
+}
+
+.state-dropdown {
+    height: 3rem;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.logo-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem; /* Adjust the size as needed */
+    font-weight: bold; /* Makes the text bold */
+    margin-left: 10px; /* Space between the logo and the text */
+    /* Add more styling like font-family, color etc. as per your design */
+}

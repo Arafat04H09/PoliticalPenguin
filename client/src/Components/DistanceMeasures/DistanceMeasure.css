@@ -1,0 +1,19 @@
+.measure-buttons-container .button {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.measure-buttons-container .button:hover, .measure-buttons-container .button:active {
+    background-color: #555;
+}
+
+.measure-buttons-container .active-measure-button {
+    background-color: rgb(252, 252, 252);
+    color: black;
+}

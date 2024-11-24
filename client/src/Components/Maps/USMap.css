@@ -1,0 +1,11 @@
+.US-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us-map-container {
+    height: 80vh; /* Adjust height as needed */
+    width: 80%; /* Map takes 80% of the width */
+    margin: 0 10%; /* 10% margin on each side */
+}

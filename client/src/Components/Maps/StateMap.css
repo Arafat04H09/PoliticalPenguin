@@ -1,0 +1,14 @@
+.state-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.map-wrapper {
+    display: flex;
+    flex: 1;  /* take up all available space */
+}
+
+.map-container {
+    flex: 1;  /* take up all available space */
+}
